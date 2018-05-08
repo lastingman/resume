@@ -96,7 +96,7 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\skill}[2]{
-	\textbf{\color{darktext}#1} & {\fontsize{2pt}{1em}#2} \\
+	\textbf{\color{darktext}#1} & {#2} \\
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,17 +106,11 @@
 
 \begin{center}
 \nametitle{郑力可}
-\subinfo{\faPhoneSquare}{+86 13588134781}
-\subinfo{\faEnvelope}{keithleaves@163.com}
+\subinfo{\faPhoneSquare}{+86 135-8813-4781}
+\subinfo{\faEnvelope}{\href{mailto: keithleaves@163.com}{keithleaves@163.com}}
 \subinfo{\faGithub}{\href{https://github.com/lastingman}{lastingman}}
-\subinfo{\faWechat}{359208767}
+\subinfo{\faWechat}{keithrhythm}
 % \faLinkedinSquare \hspace*{3pt} likezheng \hspace*{10pt}
-\newline
-%%%%%%%%%%%%%%%%%%%%%%%
-\subinfo{\textbf{性别:}}{男}
-\subinfo{\textbf{出身年月:}}{1992年12月12日}
-\subinfo{\textbf{民族:}}{汉族}
-\subinfo{\textbf{地址:}}{浙江杭州市西湖区紫金庭园}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -126,24 +120,20 @@
 \section*{个人简介}
 \noindent
 \begin{itemize}[leftmargin=*]
-    \item 毕业于圭尔夫大学计算机工程专业本科，精通计算机硬件与软件。
+    \item 毕业于圭尔夫大学计算机工程专业本科，熟悉计算机硬件与软件。
     \item 有两年的网站前端开发经验。
-    \item 能熟练运用前端开发工具和框架，比如jQuery，React+Redux，webpack2和Bootstrap3。
     \item 参与开发过一款门户网站，使用到了jQuery，webpack2和Bootstrap3。
-    \item 熟知javaScript的ECMAScript 6语法。
-    \item 熟知gitFlow工作流。
-    \item 熟知OO（面向对象）开发模式。
+    \item 熟悉javaScript的ECMAScript 6语法。
+    \item 熟悉GitFlow工作流。
     \item 能熟练的用英语交流，写作。
-    \item 自我学习能力强，热爱阅读，有广泛的爱好，喜欢挑战自我。
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{职业技能}
 \begin{skills}
-\skill{基础语言:}{Java, C, Python}
-\skill{网站开发语言:}{HTML5, CSS3, javaScript, PHP, SQL}
-\skill{网站开发框架:}{node.js, jQuery, Bootstrap, React+Redux, Flask}
-\skill{其他:}{bash, npm, yarn, git, webpack}
+\skill{编程语言:}{熟悉Java、C、HTML5、CSS3和JavaScript，了解Python、SQL、C++和C\#}
+\skill{网站开发工具:}{熟悉jQuery、webpack和Bootstrap，了解React+Redux和Node.js}
+\skill{其他:}{熟悉npm、yarn和git，了解bash}
 \end{skills}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,9 +141,9 @@
 
 \information
 	{University of Guelph}{2012. 9 - 2017. 12}
-	{计算机工程本科}{加拿大}
+	{计算机工程学士}{加拿大}
 \begin{itemize}[leftmargin=*]
-\item 圭尔夫大学编程竞赛三年级组第一名
+\item 圭尔夫大学编程竞赛三年级组\textbf{第一名}。
 \end{itemize}
 
 
@@ -163,33 +153,32 @@
 
 \project{道文网络科技有限公司}{2017. 5 - 2017. 8}
 {前端工程师（实习）}{杭州}
-{JavaScript，HTML5，CSS3，less，JQuery，Bootstrap3，webpack2，ejs}
+{JavaScript，HTML5，CSS3，Less，JQuery，Bootstrap3，webpack2，ejs}
 {\begin{itemize}[leftmargin=*]
-  	\item 根据需求设计并开发了多页门户网站\href{www.chenggua.com}{www.chenggua.com}
-  	\item 基于npm, webpack2搭建了多页网站应用的脚手架
-    \item 基于Bootsrap，开发并实现了网站专用主题样式
-    \item 通过ajax实现了前端与服务器的数据交互
+  	\item 根据需求设计并开发了多页门户网站\href{www.chenggua.com}{www.chenggua.com}。
+  	\item 基于webpack2搭建了多页网站应用的脚手架。
+    \item 基于Bootstrap3，开发并实现了网站专用主题样式。
+    \item 通过Ajax实现前端与服务器的数据交互。
 \end{itemize}}
 
 \project{浙江股权交易中心}{2014. 5 - 2014. 8}
 {前端工程师（实习）}{杭州}
 {JavaScript，HTML5，CSS3，JQuery，Bootstrap}
 {\begin{itemize}[leftmargin=*]
-    \item 主要负责对界面样式和布局的优化
-    \item 引入了Bootstrap框架实现了响应式分布
-    \item 运用JQuery实现了表单验证和简单的登录逻辑
+    \item 主要负责对界面样式和布局的优化。
+    \item 引入了Bootstrap框架实现响应式分布。
+    \item 运用jQuery实现了表单验证和简单的登录逻辑。
 \end{itemize}}
 
 \section*{项目经历}
 
 \project{Food Security System}{课程项目}
 {A software system to help ARET improving food security in Malawi}{University of Guelph}
-{HTML5/CSS3, Python, JavaScript, jQuery, Flask}
+{HTML5，CSS3，Python，JavaScript，jQuery}
 {\begin{itemize}[leftmargin=*]
-    \item 参与设计并开发了一款跨平台的食品安全系统
-    \item 主要负责前端界面主题的设计和实现
-    \item 通过ajax实现与数据库的交互来管理用户信息
-    \item 通过手机应用实现了高效率的食品，农业管理
+    \item 参与设计并开发了一款跨平台的食品安全系统。
+    \item 主要负责前端界面主题的设计和实现。
+    \item 通过Ajax实现与数据库的交互来管理用户信息。
 \end{itemize}}
 
 \end{document}
